@@ -19,12 +19,12 @@ BuildRequires : buildreq-distutils3
 Provides: prompt_toolkit
 Provides: prompt_toolkit-python
 Provides: prompt_toolkit-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(wcwidth)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 =====================
