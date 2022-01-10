@@ -4,7 +4,7 @@
 #
 Name     : pypi-prompt_toolkit
 Version  : 3.0.24
-Release  : 79
+Release  : 80
 URL      : https://files.pythonhosted.org/packages/15/e4/f138d6319c02a6052a590ef32e94366b74581973b43665c2960b07b9ec24/prompt_toolkit-3.0.24.tar.gz
 Source0  : https://files.pythonhosted.org/packages/15/e4/f138d6319c02a6052a590ef32e94366b74581973b43665c2960b07b9ec24/prompt_toolkit-3.0.24.tar.gz
 Summary  : Library for building powerful interactive command lines in Python
@@ -13,18 +13,15 @@ License  : BSD-3-Clause
 Requires: pypi-prompt_toolkit-license = %{version}-%{release}
 Requires: pypi-prompt_toolkit-python = %{version}-%{release}
 Requires: pypi-prompt_toolkit-python3 = %{version}-%{release}
-Requires: Pygments
-BuildRequires : Pygments
+Requires: pypi(pygments)
 BuildRequires : buildreq-distutils3
-Provides: prompt_toolkit
-Provides: prompt_toolkit-python
-Provides: prompt_toolkit-python3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
+BuildRequires : pypi(py)
+BuildRequires : pypi(pygments)
 BuildRequires : pypi(wcwidth)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 =====================
@@ -68,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641472216
+export SOURCE_DATE_EPOCH=1641843819
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
