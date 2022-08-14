@@ -4,7 +4,7 @@
 #
 Name     : pypi-prompt_toolkit
 Version  : 3.0.30
-Release  : 87
+Release  : 88
 URL      : https://files.pythonhosted.org/packages/c5/7e/71693dc21d20464e4cd7c600f2d8fad1159601a42ed55566500272fe69b5/prompt_toolkit-3.0.30.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c5/7e/71693dc21d20464e4cd7c600f2d8fad1159601a42ed55566500272fe69b5/prompt_toolkit-3.0.30.tar.gz
 Summary  : Library for building powerful interactive command lines in Python
