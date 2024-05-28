@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : pypi-prompt_toolkit
-Version  : 3.0.44
-Release  : 106
-URL      : https://files.pythonhosted.org/packages/d5/88/869b717061b03b0025a3df923516cf999366954c0f0f8e13facd9dd166fa/prompt_toolkit-3.0.44.tar.gz
-Source0  : https://files.pythonhosted.org/packages/d5/88/869b717061b03b0025a3df923516cf999366954c0f0f8e13facd9dd166fa/prompt_toolkit-3.0.44.tar.gz
+Version  : 3.0.45
+Release  : 107
+URL      : https://files.pythonhosted.org/packages/66/10/60dfbae0c000879066656fc15bb8d0d1d4235ead415959defcbeb57ee060/prompt_toolkit-3.0.45.tar.gz
+Source0  : https://files.pythonhosted.org/packages/66/10/60dfbae0c000879066656fc15bb8d0d1d4235ead415959defcbeb57ee060/prompt_toolkit-3.0.45.tar.gz
 Summary  : Library for building powerful interactive command lines in Python
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -57,10 +57,10 @@ python3 components for the pypi-prompt_toolkit package.
 
 
 %prep
-%setup -q -n prompt_toolkit-3.0.44
-cd %{_builddir}/prompt_toolkit-3.0.44
+%setup -q -n prompt_toolkit-3.0.45
+cd %{_builddir}/prompt_toolkit-3.0.45
 pushd ..
-cp -a prompt_toolkit-3.0.44 buildavx2
+cp -a prompt_toolkit-3.0.45 buildavx2
 popd
 
 %build
@@ -68,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1716862693
+export SOURCE_DATE_EPOCH=1716908436
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "

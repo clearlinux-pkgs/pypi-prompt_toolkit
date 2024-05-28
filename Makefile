@@ -1,5 +1,5 @@
 PKG_NAME := pypi-prompt_toolkit
-URL = https://files.pythonhosted.org/packages/d5/88/869b717061b03b0025a3df923516cf999366954c0f0f8e13facd9dd166fa/prompt_toolkit-3.0.44.tar.gz
+URL = https://files.pythonhosted.org/packages/66/10/60dfbae0c000879066656fc15bb8d0d1d4235ead415959defcbeb57ee060/prompt_toolkit-3.0.45.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
